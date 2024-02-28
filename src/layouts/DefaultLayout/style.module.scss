@@ -1,0 +1,11 @@
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  min-height: 100vh;
+  .layout {
+    display: grid;
+    width: 100%;
+  }
+}
